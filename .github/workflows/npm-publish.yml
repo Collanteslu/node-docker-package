@@ -28,4 +28,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/collanteslu/node-docker-package/my-express-app:latest
+          tags: ghcr.io/collanteslu/node-docker-package:latest
