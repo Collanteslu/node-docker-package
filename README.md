@@ -35,6 +35,18 @@ npm start
 
 The application will be running on `http://localhost:3000` and will respond with "Hola Mundo" when accessed.
 
+
+## Running docker
+
+To run the application using docker, run the following command:
+```
+docker build -t my-express-app .
+```
+
+```
+docker run -d -p 3000:3000 my-express-app
+```
+
 ### Built With
 
 - [Express](https://expressjs.com/) - The web framework used
