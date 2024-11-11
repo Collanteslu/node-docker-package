@@ -28,4 +28,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/collanteslu/node-docker-package:latest
+          tags: |
+            ghcr.io/collanteslu/node-docker-package:latest
+            ghcr.io/collanteslu/node-docker-package:${{ github.run_id }}
